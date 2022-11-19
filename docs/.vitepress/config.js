@@ -52,6 +52,7 @@ function sidebarGuide() {
             items: [
                 { text: 'Mac M1安装Go语言环境', link: '/go/mac-install-go' },
                 { text: 'Go基础', link: '/go/go-some-base' },
+                { text: 'proto3语法', link: '/go/proto3-syntax' },
                 // { text: 'Configuration', link: '/guide/configuration' },
                 // { text: 'Deploying', link: '/guide/deploying' },
             ],
