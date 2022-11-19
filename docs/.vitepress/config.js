@@ -170,7 +170,11 @@ function sidebarK8s() {
         {
             text: 'K8S速学',
             collapsible: true,
-            items: [{ text: '快速部署Rancher2和K8S集群', link: '/k8s/kubernetes/deploy-rancher2-k8s' }],
+            items: [
+                { text: '快速部署Rancher2和K8S集群', link: '/k8s/kubernetes/deploy-rancher2-k8s' },
+                { text: 'K8S使用rancher快速安装', link: '/k8s/kubernetes/quick-install-k8s' },
+                { text: '使用rancher', link: '/k8s/kubernetes/k8s-onhand' },
+            ],
         },
     ]
 }
